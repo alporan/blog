@@ -147,6 +147,11 @@ MENU STYLES
 .menu{
   background-color: #ffffff;
 }
+@media only screen and (max-width: 1026px) {
+  .menu{
+      display: none;
+  }
+}
 
 .menu__link{
   padding: 2rem 1.5rem;
