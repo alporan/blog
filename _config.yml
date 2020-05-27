@@ -7,16 +7,6 @@ favicon: assets/images/favicon.png
 baseurl: "/alporan/" # the subpath of your site, e.g. /blog/ or / for root
 url: "" # the base hostname & protocol for your site
 
-pagination:
-
-  # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: true
-  paginate_path: "/portfolio/:num/"
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
-
-  per_page: 5
-
 # Social
 linkedin: https://www.linkedin.com/in/alp-oran
 github:  https://github.com/alporan
@@ -32,9 +22,6 @@ markdown: kramdown
 
 kramdown:
   parse_block_html: true
-
-plugins:
-  - jekyll-paginate-v2
 
 exclude:
   - README.md
