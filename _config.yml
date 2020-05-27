@@ -1,0 +1,47 @@
+# Site settings
+title: Alp Oran
+job_title: Software Developer
+cover: assets/images/cover.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "alporan.github.io" # the subpath of your site, e.g. /blog/ or / for root
+url: "" # the base hostname & protocol for your site
+
+pagination:
+
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+
+  per_page: 5
+
+# Social
+linkedin: https://www.linkedin.com/in/alp-oran
+github:  https://github.com/alporan
+
+#Additional Pages
+about: about
+
+permalink: /:title
+
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate-v2
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
