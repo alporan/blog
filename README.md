@@ -1,2 +1,2 @@
 # alporan.github.io/blog
-Personal Webpage
+Personal Website
