@@ -2,10 +2,10 @@
 layout: post
 title: Attachmate Extra! X-treme Macro Interface
 date: 2018-12-01 18:00:00
-tags: Python PyQt5 Extra!-X-treme-API
+tags: Python PyQt5 "Extra! Xtreme API"
 ---
 
-Interface for developing utility programs and macros with Python programing language for Extra! X-treme terminals.  
+Interface for developing utility programs and macros with Python programming language for Extra! X-treme terminals.  
 <a href='https://github.com/alporan/extra-xtreme-macro-interface'>
 <img alt='Github link' src='{{ site.baseurl }}assets/images/github.png' width="150" height="60" style="outline: 2px solid #000000; margin: 1rem 0rem;" />
 </a>
