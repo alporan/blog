@@ -18,7 +18,7 @@ Use Play Store to download 'Blazing Fruits' to your Android phone.
 </a>
 
 ## How to Play?
-Tap your screen to burn the fruits whose color is matching with the background color.
+Tap your screen to burn the fruits whose color matches the background color.
 
 <p style="text-align: center">
 <img src="{{ site.baseurl }}assets/images/blazing-fruits/0.png" alt="0" width="288" height="512">
